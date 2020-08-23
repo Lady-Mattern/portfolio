@@ -6,7 +6,7 @@ class Footer extends Component {
             <div className="footer">
                 <p>This is the footer. Isn't it awesome?</p>
             </div>
-        )
+        );
     }
 }
 
