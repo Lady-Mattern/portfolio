@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+class Projects extends Component {
     render () {
         return (
             <div>
-                <h1>Leah Mattern</h1>
+                <h1>Here Are Some of My Favorite Projects</h1>
             </div>
         )
     }
 }
 
-export default Header;
+export default Projects;
