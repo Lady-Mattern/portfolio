@@ -5,9 +5,12 @@ class ProjectCard extends Component {
         const { props } = this.props;
         return (
             <div className="project-card">
-                <h3>{props.title}</h3>
-                <img src={props.image} alt={props.title} />
-                <p>{props.languages}</p>
+                <div className="card-container">
+                    <h3>{props.title}</h3>
+                    <a href={props.site}><img src={props.image} alt={props.title} /></a>
+                    <p>{props.languages}</p>
+                    <a href={props.github}>GitHub - {props.title}</a>
+                </div>
             </div>
         )
     }
