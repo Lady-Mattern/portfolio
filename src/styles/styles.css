@@ -2,14 +2,22 @@ body {
     background-color: darkblue;
 }
 
-.header {
+.Header {
     background-color: pink;
 }
 
-.footer {
+.Nav {
+    background-color: silver;
+}
+
+.Footer {
     background-color: red;
 }
 
 ul {
     background-color: gold;
+}
+
+.ProjectCard {
+    background-color: red;
 }

@@ -3,8 +3,6 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import styles from './styles/styles.css';
-import ProjectCard from './components/ProjectCard';
-
 
 function App() {
   return (
@@ -12,9 +10,9 @@ function App() {
       <Header />
       <div className="welcome">
         <h2>A Reasonably Tame Software Engineer....</h2>
-        <p>Welcome to my portfolio! Feel free to have a look AudioBufferSourceNode.</p>
+        <p>Welcome to my portfolio! Feel free to have a look around.</p>
       </div>
-      <ProjectCard />
+      
       <Footer />
     </div>
   );
