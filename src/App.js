@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+import Projects from './pages/Projects';
 import styles from './styles/styles.css';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
           <h2>A Reasonably Tame Software Engineer....</h2>
           <p>Welcome to my portfolio! Feel free to have a look around.</p>
         </div>
-        
+        <Projects />
         <Footer />
       </div>
     );

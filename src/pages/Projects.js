@@ -24,7 +24,7 @@ class Projects extends Component {
                     />
                     <ProjectCard 
                         title="Paleo Pie"
-                        image=""
+                        image={mustache}
                         site=""
                         languages="HTML, CSS, JavaScript, React"
                         github=""
