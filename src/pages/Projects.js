@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import ProjectCard from '../components/ProjectCard';
+import mustache from '../images/mustache.jpg'
 
 class Projects extends Component {
     render () {
         return (
-            <div>
+            <div className="Projects">
                 <h1>Here Are Some of My Favorite Projects</h1>
                 <div>
                     <ProjectCard 
@@ -18,28 +19,28 @@ class Projects extends Component {
                         title="Lend A Note"
                         image=""
                         site=""
-                        languages=""
+                        languages="Ruby on Rails, SQL, PostgresQL, Gatsby"
                         github=""
                     />
                     <ProjectCard 
                         title="Paleo Pie"
                         image=""
                         site=""
-                        languages=""
+                        languages="HTML, CSS, JavaScript, React"
                         github=""
                     />
                     <ProjectCard 
                         title="Oxygen"
                         image=""
                         site=""
-                        languages=""
+                        languages="JSX, CSS, React"
                         github=""
                     />
                     <ProjectCard 
                         title="Music With Mozart"
                         image=""
                         site=""
-                        languages=""
+                        languages="HTML, CSS, JavaScript"
                         github=""
                     />
                 </div>
