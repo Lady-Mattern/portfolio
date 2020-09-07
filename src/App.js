@@ -1,32 +1,41 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+// Constant Components
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
+// Page Components
+import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Media from './pages/Media';
 import Contact from './pages/Contact';
+
 import styles from './styles/styles.css';
-import { Route } from 'react-router-dom';
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <Header />
-        <div className="welcome">
-          <h2>A Reasonably Tame Software Engineer....</h2>
-          <p>Welcome to my portfolio! Feel free to have a look around.</p>
-        </div>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/media">
-          <Media />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Footer />
+        <BrowserRouter>
+          <Header />
+            <Switch>
+              <Route exact path="/">
+              <Home />
+              </Route>
+              <Route path="/projects">
+                <Projects />
+              </Route>
+              <Route path="/media">
+                <Media />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+            </Switch>
+          <Footer />
+        </BrowserRouter>
       </div>
     );
   }
