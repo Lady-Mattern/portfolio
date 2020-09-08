@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // Constant Components
-import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
@@ -18,24 +17,22 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <BrowserRouter>
-          <Header />
-            <Switch>
+        <Nav />
+          <Switch>
               <Route exact path="/">
-              <Home />
+                <Home />
               </Route>
-              <Route path="/projects">
+              <Route exact path="/projects">
                 <Projects />
               </Route>
-              <Route path="/media">
+              <Route exact path="/media">
                 <Media />
               </Route>
-              <Route path="/contact">
+              <Route exact path="/contact">
                 <Contact />
               </Route>
-            </Switch>
+          </Switch>
           <Footer />
-        </BrowserRouter>
       </div>
     );
   }

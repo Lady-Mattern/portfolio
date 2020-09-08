@@ -1,9 +1,13 @@
 body {
     background-color: darkblue;
+}\
+
+.active-link {
+    color: purple;
 }
 
-.Header {
-    background-color: pink;
+.active-link-home {
+    color: black;
 }
 
 .Nav {
@@ -12,10 +16,6 @@ body {
 
 .Footer {
     background-color: red;
-}
-
-ul {
-    background-color: gold;
 }
 
 .ProjectCard {
