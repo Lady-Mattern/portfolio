@@ -7,10 +7,12 @@ import Footer from './components/Footer';
 
 // Page Components
 import Home from './pages/Home';
+import About from './pages/About';
 import Projects from './pages/Projects';
 import Media from './pages/Media';
 import Contact from './pages/Contact';
 
+// Styling
 import styles from './styles/styles.css';
 
 class App extends Component {
@@ -21,6 +23,9 @@ class App extends Component {
           <Switch>
               <Route exact path="/">
                 <Home />
+              </Route>
+              <Route exact path="/about">
+                <About />
               </Route>
               <Route exact path="/projects">
                 <Projects />

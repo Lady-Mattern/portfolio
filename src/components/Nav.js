@@ -8,6 +8,9 @@ class Nav extends Component {
                 <NavLink exact activeClassName="active-link-home" to="/">
                     <h1>Leah Mattern</h1>
                 </NavLink>
+                <NavLink exact activeClassName="active-link" to="/about">
+                    About
+                </NavLink>
                 <NavLink exact activeClassName="active-link" to="/projects">
                     Projects
                 </NavLink>
