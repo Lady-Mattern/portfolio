@@ -13,7 +13,7 @@ import Media from './pages/Media';
 import Contact from './pages/Contact';
 
 // Styling
-// import styles from './styles/styles.css';
+import styles from './styles/styles.css';
 
 class App extends Component {
   render () {
