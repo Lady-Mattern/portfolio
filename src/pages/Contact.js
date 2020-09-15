@@ -6,6 +6,7 @@ class Contact extends Component {
             <div className="contact-me">
                 <h1>Let's Get In Touch</h1>
                 <h3>Email</h3>
+                <p>ladyleahmattern@gmail.com</p>
                 <h3>Social Media</h3>
                 <p>Linkedin</p>
                 <p>Twitter</p>

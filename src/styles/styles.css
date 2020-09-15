@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     background: linear-gradient(to right, #09203f, #537895);
+    color: blanchedalmond;
 }
 
 .active-link {
@@ -21,4 +22,8 @@ html, body {
 
 .ProjectCard {
     background-color: red;
+}
+
+#profile-photo {
+    height: 200px;
 }

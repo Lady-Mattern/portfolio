@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import MediaCard from '../components/MediaCard';
 import blindcode from '../images/blindcode.jpeg';
-import heroku from '../images/heroku.png';
 import helloworld from '../images/helloworld.jpg';
 import heroku2 from '../images/heroku2.jpg';
 
