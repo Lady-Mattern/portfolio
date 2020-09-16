@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    background: linear-gradient(to right, #09203f, #537895);
+    background: linear-gradient(360deg, #09203f, #537895);
     color: blanchedalmond;
 }
 
@@ -18,7 +18,7 @@ html, body {
 
 .Footer {
     background-color: red;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;

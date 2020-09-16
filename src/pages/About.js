@@ -21,7 +21,7 @@ class About extends Component {
                     As fate would have it, a friend introduced me to the world of code via freeCodeCamp's online curriculum and thus, a Software Engineer was born!
                 </p>
                 <p>
-                    
+                    Now I've completed both NuCamp's HTML, CSS and JavaScript program as well as General Assembly's Software Engineering Immersive Bootcamp
                 </p>
             </div>            
         )
