@@ -1,5 +1,10 @@
-html, body {
-    height: 100%;
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
     background: linear-gradient(360deg, #09203f, #537895);
     color: blanchedalmond;
 }
@@ -22,6 +27,9 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 50px;
 }
 
 .ProjectCard {
