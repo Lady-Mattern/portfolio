@@ -4,7 +4,7 @@ import leah from '../images/leah.jpg';
 class About extends Component {
     render () {
         return (
-            <div>
+            <main>
                 <img id="profile-photo" src={leah} alt="Leah's portrait with a forest background. Leah is smiling. She has short brown hair. Leah is wearing blue rimmed glasses and a brown high collar jacket." />
                 <h1>About Me</h1>
                 <p>
@@ -23,7 +23,7 @@ class About extends Component {
                 <p>
                     Now I've completed both NuCamp's HTML, CSS and JavaScript program as well as General Assembly's Software Engineering Immersive Bootcamp
                 </p>
-            </div>            
+            </main>            
         )
     }
 }
