@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 class Nav extends Component {
     render () {
         return (
-            <nav className="Nav">
+            <nav>
                 <div className="nav-wrapper">
                     <NavLink exact activeClassName="active-link-home" to="/">
                         <h1 className="brand-logo">Leah Mattern</h1>

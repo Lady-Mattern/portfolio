@@ -7,7 +7,7 @@ import heroku2 from '../images/heroku2.jpg';
 class Media extends Component {
     render () {
         return (
-            <main className="media-container">
+            <main id="media-container">
                 <h1>Check Out Some Things I've Been Involved In</h1>
                 <h2>Articles I've Written</h2>
                 <div className="blog-container">

@@ -17,6 +17,10 @@ nav {
     background: none;
 }
 
+.nav-wrapper {
+    background-color: rgb(192, 192, 192, 0.5);
+}
+
 .active-link {
     color: purple;
 }
@@ -41,12 +45,16 @@ nav {
     height: 50px;
 }
 
+.home-container {
+    text-align: center;
+}
+
 /* ==================== */
 /* ABOUT PAGE STYLES */
 /* ==================== */
 
 #about-container {
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 1rem auto;
 }
 
@@ -65,6 +73,11 @@ nav {
 /* PROJECT PAGE STYLES */
 /* ==================== */
 
+#projects-container {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
 .ProjectCard {
     background-color: red;
 }
@@ -73,9 +86,19 @@ nav {
 /* MEDIA PAGE STYLES */
 /* ==================== */
 
+#media-container {
+    width: fit-content;
+    margin: 1rem auto;
+}
+
 /* ==================== */
 /* CONTACT PAGE STYLES */
 /* ==================== */
+
+#contact-container {
+    max-width: 50rem;
+    margin: 1rem auto;
+}
 
 /* RESPONSIVE SIZING */
 
