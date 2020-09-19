@@ -8,7 +8,7 @@ import mozart from '../images/mozart.png';
 class Projects extends Component {
     render () {
         return (
-            <main className="Projects">
+            <main className="projects-container">
                 <h1>Here Are Some of My Favorite Projects</h1>
                 <div>
                     {/* Cards commented out need to be finished before revealing */}
