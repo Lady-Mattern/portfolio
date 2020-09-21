@@ -13,12 +13,17 @@ body {
     color: blanchedalmond;
 }
 
+#temp {
+    color: orange;
+}
+
 nav {
     background: none;
 }
 
 .nav-wrapper {
-    background-color: rgb(192, 192, 192, 0.5);
+    background-color: rebeccapurple;
+    /* background-color: rgb(192, 192, 192, 0.4); */
 }
 
 .active-link {
@@ -45,7 +50,7 @@ nav {
     height: 50px;
 }
 
-.home-container {
+#home-container {
     text-align: center;
 }
 
@@ -61,7 +66,7 @@ nav {
 #profile-photo {
     height: 200px;
     margin-top: 1rem;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, .5); 
 }
 
@@ -78,8 +83,18 @@ nav {
     margin: 1rem auto;
 }
 
+.project-image {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
 .ProjectCard {
     background-color: red;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, .5);
+    margin: 1rem auto;
 }
 
 /* ==================== */
@@ -89,6 +104,16 @@ nav {
 #media-container {
     width: fit-content;
     margin: 1rem auto;
+}
+
+.media-image {
+    max-width: 400px;
+}
+
+.MediaCard {
+    background-color: coral;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px 1px rgba(0, 0, 0, .5); 
 }
 
 /* ==================== */
@@ -102,22 +127,52 @@ nav {
 
 /* RESPONSIVE SIZING */
 
-/* ======================= */
+/* ====================================== */
 /* Mobile Styles 0 - 480px */
-/* ======================= */
+/* ====================================== */
 
-@media screen and (max-width: 480px) {
-    max-width: 480px;
+@media screen and (min-width: px) {
+    body {
+        background-color: purple;
+    }
 }
 
-/* ======================= */
-/* Tablet Styles 481 - px */
-/* ======================= */
+/* ====================================== */
+/* iPad and Tablet Styles 481 - 768px */
+/* ====================================== */
 
-/* ======================= */
-/* Laptop Styles  - px */
-/* ======================= */
+@media screen and (min-width: px) {
+    body {
+        background-color: red;
+    }
+} 
 
-/* ======================= */
-/* Desktop Styles  - px */
-/* ======================= */
+/* ======================================= */
+/* Small Screen and Laptop Styles 769 - 1024px */
+/* ======================================= */
+
+@media screen and (min-width: px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* ======================================= */
+/* Large Screen and Desktop Styles 1025 - 1200px */
+/* ======================================= */
+
+@media screen and (min-width: px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* ======================================= */
+/* Extra Large TV Screen Styles 1201 and beyond */
+/* ======================================= */
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: gold;
+    }
+}

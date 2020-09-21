@@ -6,7 +6,7 @@ class ProjectCard extends Component {
             <div className="ProjectCard">
                 <div className="card-container">
                     <h3>{this.props.title}</h3>
-                    <a href={this.props.site}><img src={this.props.image} alt={this.props.title} /></a>
+                    <a href={this.props.site}><img className="project-image" src={this.props.image} alt={this.props.title} /></a>
                     <p>{this.props.languages}</p>
                     <a href={this.props.github}>GitHub - {this.props.title}</a>
                 </div>

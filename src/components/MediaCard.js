@@ -6,7 +6,7 @@ class MediaCard extends Component {
             <div className="MediaCard">
                 <h3>{this.props.title}</h3>
                 <p>{this.props.subTitle}</p>
-                <a href={this.props.site}><img src={this.props.image} alt={this.props.title} /></a>
+                <a href={this.props.site}><img className="media-image" src={this.props.image} alt={this.props.title} /></a>
                 <p>{this.props.description}</p>
             </div>
         )
